@@ -1,0 +1,75 @@
+site_name: Routing
+theme: readthedocs
+pages:
+- ['index.md', '简介']
+- ['QuickStart.md', '快速入门']
+
+- ['Api/Controller/getAppDir.md', 'Controller', 'getAppDir']
+- ['Api/Controller/getControllerName.md', 'Controller', 'getControllerName']
+- ['Api/Controller/getControllersDir.md', 'Controller', 'getControllersDir']
+- ['Api/Controller/getLayoutPath.md', 'Controller', 'getLayoutPath']
+- ['Api/Controller/getViewPath.md', 'Controller', 'getViewPath']
+- ['Api/Controller/getViewsDir.md', 'Controller', 'getViewsDir']
+- ['Api/Controller/runAction.md', 'Controller', 'runAction']
+- ['Api/Controller/runFunction.md', 'Controller', 'runFunction']
+
+- ['Api/DB/close.md', 'DB', 'close']
+- ['Api/DB/command.md', 'DB', 'command']
+- ['Api/DB/executeSql.md', 'DB', 'executeSql']
+- ['Api/DB/getDBConnection.md', 'DB', 'getDBConnection']
+- ['Api/DB/getDBConnectionStatus.md', 'DB', 'getDBConnectionStatus']
+- ['Api/DB/getDBName.md', 'DB', 'getDBName']
+- ['Api/DB/getDBPassword.md', 'DB', 'getDBPassword']
+- ['Api/DB/getDBSource.md', 'DB', 'getDBSource']
+- ['Api/DB/getDBType.md', 'DB', 'getDBType']
+- ['Api/DB/getDBUserName.md', 'DB', 'getDBUserName']
+- ['Api/DB/open.md', 'DB', 'open']
+
+- ['Api/DB/command/bindParameter.md', 'DB/command', 'bindParameter']
+- ['Api/DB/command/createCommand.md', 'DB/command', 'createCommand']
+- ['Api/DB/command/executeCommand.md', 'DB/command', 'executeCommand']
+- ['Api/DB/command/removeAllBindParameter.md', 'DB/command', 'removeAllBindParameter']
+- ['Api/DB/command/removeBindParameter.md', 'DB/command', 'removeBindParameter']
+
+- ['Api/Debugging/disable.md', 'Debugging', 'disable']
+- ['Api/Debugging/enabled.md', 'Debugging', 'enabled']
+- ['Api/Debugging/renderPanel.md', 'Debugging', 'renderPanel']
+- ['Api/Debugging/setDatabaseInfo.md', 'Debugging', 'setDatabaseInfo']
+- ['Api/Debugging/setPanelsStatus.md', 'Debugging', 'setPanelsStatus']
+- ['Api/Debugging/setVariable.md', 'Debugging', 'setVariable']
+
+- ['Api/Error/getError.md', 'Error', 'getError']
+- ['Api/Error/getErrorDefine.md', 'Error', 'getErrorDefine']
+- ['Api/Error/getErrorMessage.md', 'Error', 'getErrorMessage']
+- ['Api/Error/getRedirectURL.md', 'Error', 'getRedirectURL']
+- ['Api/Error/setRedirectURL.md', 'Error', 'setRedirectURL']
+- ['Api/Error/throwError.md', 'Error', 'throwError']
+
+- ['Api/File/dirExists.md', 'File', 'dirExists']
+- ['Api/File/fileExists.md', 'File', 'fileExists']
+
+- ['Api/I18N/getLocalLanguage.md', 'I18N', 'getLocalLanguage']
+- ['Api/I18N/setLocalLanguage.md', 'I18N', 'setLocalLanguage']
+- ['Api/I18N/t.md', 'I18N', 't']
+
+- ['Api/Request/getUrl.md', 'Request', 'getUrl']
+- ['Api/Request/getUrlWith.md', 'Request', 'getUrlWith']
+
+- ['Api/Router/getActionName.md', 'Router', 'getActionName']
+- ['Api/Router/getAppName.md', 'Router', 'getAppName']
+- ['Api/Router/getControllerName.md', 'Router', 'getControllerName']
+- ['Api/Router/setControllerName.md', 'Router', 'setControllerName']
+
+- ['Api/SimpleExtensions/getConfigs.md', 'SimpleExtensions', 'getConfigs']
+- ['Api/SimpleExtensions/getIncludeCode.md', 'SimpleExtensions', 'getIncludeCode']
+- ['Api/SimpleExtensions/getIncludeResult.md', 'SimpleExtensions', 'getIncludeResult']
+- ['Api/SimpleExtensions/getSEDir.md', 'SimpleExtensions', 'getSEDir']
+- ['Api/SimpleExtensions/include.md', 'SimpleExtensions', 'include']
+- ['Api/SimpleExtensions/isDevelopment.md', 'SimpleExtensions', 'isDevelopment']
+- ['Api/SimpleExtensions/module.md', 'SimpleExtensions', 'module']
+- ['Api/SimpleExtensions/run.md', 'SimpleExtensions', 'run']
+
+- ['Api/String/htmlFilter.md', 'String', 'htmlFilter']
+- ['Api/String/md5.md', 'String', 'md5']
+
+- ['Api/View/render.md', 'View', 'render']
